@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Format of form to reproduce for Question #3</title>
+ <meta charse="utf-8"/>
+ <style>
+     body {background-color:yellow;}
+	 .warning {background-color:plum;border:4px solid green}
+	 .normal {background-color:#98FB98;border:4px solid orange}
+	 .first {font-family: verdana;color:green}
+	 .second {font-family: verdana;color:orange}
+	 label {font-family: verdana;color:black}
+	 #section {font-weight:bolder}
+ </style>
+ </head> 
+<body >
+<table>
+  <tr>
+    <td><a href="images/ForRent.jpg"><img src="images/ForRent.jpg" alt="Rent image"/></a></td>
+    <td><h1>Mengyi's Apartment Search Form</h1></td>
+  </tr>
+ </table>
+  <form action="">
+    <fieldset class="warning">
+	  <legend class="first">Renter(s) Information</legend>
+	  <label id="section">How many people will live in the apartment?
+	  <input type="text" name="people" size="2"/></label>
+	  <p>
+	  <label id="section">Smoker?</label>
+	  <label><input type="radio" name="smoke" value="yes">Yes</label>
+	  <label><input type="radio" name="pet" value="No">No </label>
+	  </p>
+	  <p>
+	  <label id="section">Any pets</label><br/>
+	  <label><input type="checkbox" name="pet" value="cats">Cats</label><br/>
+	  <label><input type="checkbox" name="pet" value="dogs">Dogs</label><br/>
+	  <label><input type="checkbox" name="pet" value="other">Other<label> <label id="section">Specify:</label>
+	  <label><input type="text" name="other pet" size="25"/></label><br/>
+	  <label><input type="checkbox" name="pet" value="no">No Pets</label><br/>
+	  </p>
+	</fieldset>
+	<fieldset class="normal">
+	  <legend class="second">What are you looking for?</legend>
+	  <label id="section">Size of apartment:</label><br/>
+	  <label><input type="checkbox" name="size" value="studio">Studio</label>
+	  <label><input type="checkbox" name="size" value="3&frac12">3&frac12 </label>
+	  <label><input type="checkbox" name="size" value="4&frac12">4&frac12 </label>
+	  <label><input type="checkbox" name="size" value="5&frac12">5&frac12 </label>
+	  <label><input type="checkbox" name="size" value="more than 5&frac12">More than 5&frac12 <label><br/>
+	  <p>
+	  <label id="section">Do you have preferred locations?</label><br/>
+	   <label><input type="checkbox" name="location" value="West Island">West Island</label>
+	   <label><input type="checkbox" name="location" value="Downtown">Downtown </label>
+	   <label><input type="checkbox" name="location" value="Lower Westmount">Lower Westmount</label>
+       <label><input type="checkbox" name="location" value="NDG">DNG</label>
+	   <label><input type="checkbox" name="location" value="East end of Island">East end of Island</label>
+	   <label><input type="checkbox" name="location" value="no care">Don't care</label>
+	   </p>
+	   <label id="section">Price Range/month</label><br/>
+	   <select name="price">
+	     <option value="&lt$500">&lt$500</option>
+		 <option value="&lt$600">&lt$600</option>
+		 <option value="&lt$700">&lt$700</option>
+		 <option value="no limit">No limit</option>
+	   </select>
+	   <p>
+	   <label id="section">Would be nice to have</label><br/>
+	   <label><input type="checkbox" name="preference" value="Fire Place">Fire Place</label>
+	   <label><input type="checkbox" name="preference" value="Laundromat in building">Laundromat in building</label>
+	   <label><input type="checkbox" name="preference" value="Indoor Parking">Indoor Parking</label>
+	   <label><input type="checkbox" name="preference" value="Output Parking">Output Parking</label>
+	   <label><input type="checkbox" name="preference" value="Balcony">Balcony</label>
+      </p>
+    </fieldset>	  
+	<p>
+	  Let's see what we can find...
+	</p>
+	<input type="submit" value="search">
+	<input type="reset" value="start over">
+   </form>
+   </body>
+  </html>

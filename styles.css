@@ -1,0 +1,45 @@
+
+ body {background-image:url(images/elephant.jpg);}
+ .divFormat { margin:60px;
+	         background-color:#FFEBCD;
+	         border:10px solid tomato;
+             padding:10px;
+	         width:30%;
+	         color:#A9A9A9;
+             } 
+  
+   th{background-color:gold;
+      color:white;
+	  padding:10px;}
+	  
+    table {border: 15px dotted yellow;
+	       margin:60px;
+		   width:60%;
+		   }
+    .format1{
+		    background-color:#FFEFD5;
+	        border:8px solid pink;
+		   }
+    .format2{background-color:#FFF0F5;
+	         border:8px solid LIGHTGREEN;}
+	.format3{background-color:#ADD8E6;
+	         border:8px solid ORCHID;}
+    .format4{background-color:#F08080;
+	         border:8px solid greenyellow;}
+	
+	.ol3{list-style-type:armenian;}
+	.ul1{list-style-image:url(images/multi.jpg);
+	     }
+	.ul2{list-style-type:circle;
+		color:ORCHID;
+	    }
+	.ul3{list-style-type:square;
+		color:greenyellow;
+	    }
+	.ul4{
+		list-style-image:url(images/green.jpg);
+	   }
+	 p{background-color:tomato;
+	   width:50%;}
+			
+	
